@@ -1,5 +1,18 @@
 @import "tailwindcss";
+@font-face{
+    font-family: Founder;
+    src: url('./assets/fonts/Founders Grotesk Cond Bold.ttf')
+}
 
 @theme{
-	
+    --font-bebas: 'Bebas Neue', cursive;
+    --font-quicksand: 'Quicksand', sans-serif;
+    --font-founder: 'Founder', sans-serif;
 }
+
+
+
+
+
+
+

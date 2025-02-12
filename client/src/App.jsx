@@ -1,11 +1,15 @@
-
+import Landing from './components/Landing';
+import Loader from './components/Loader';
+import Navbar from './components/Navbar';
 function App() {
 
   return (
     <>
-     <div className="bg-red-500 w-full h-screen text-laal"> 
-        <h1>Rishabh</h1>
-     </div>
+     <main>
+      <Navbar />
+      <Loader />
+      <Landing />
+     </main>
     </>
   )
 }
